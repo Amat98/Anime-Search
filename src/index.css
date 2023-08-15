@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button {
+  @apply bg-indigo-500 p-2 text-white my-2 block mx-auto px-[100px] rounded-full hover:bg-indigo-900 transition-colors duration-500 border-2 border-black md:bg-red-500 md:text-[50px]
+}
